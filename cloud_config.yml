@@ -1,0 +1,7 @@
+#cloud-config
+users:
+- name: naustin
+  passwd: $1$oygSdM49$.M1ghpjGyHX9ItOrhNtxZ.
+  groups:
+  - sudo
+  - docker
